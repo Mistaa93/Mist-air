@@ -1,0 +1,159 @@
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+    margin: 20px 0 0 0;
+    color: aliceblue;  
+    
+}
+
+header {
+    background: url(../img/header-section3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2px;
+}
+
+h1.titre {
+    font-size: 90px;
+    margin-top: 110px;
+    text-transform: uppercase;
+}
+
+h3.slogan {
+    font-size: 25px;
+    font-style: italic;
+}
+
+/* Destinations */
+
+section#destinations {
+    margin: 0px 20% 0 20%;  
+
+}
+
+section#destinations h3 {
+    padding: 50px;
+    opacity: 0.7;
+    color: #373737;    
+}
+
+div.destination-item {
+    color: #373737;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    position: relative;
+    flex: 1 0 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+div.destination-item:hover {
+    transform: scale(1.07);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    transition: 0.5s all;
+    
+}
+
+div.destinations-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 10px;
+    width: 70%;
+}
+
+.barcelone { background: url(../img/barcelone1.jpg);}
+.dubai { background: url(../img/dubai1.jpg); }
+.londres { background: url(../img/londres2.avif);}
+.paris { background: url(../img/paris1.jpg);}
+.philippines { background: url(../img/philippines1.jpg);}
+.tunis { background: url(../img/tunis1.jpg);}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+span.nom {
+   position: relative;
+   color: #373737; 
+   background-color: aliceblue;
+   top: 20px;
+   float: right;
+   padding: 12px;
+   font-size: 18px;
+
+}
+span.prix {
+    position: relative;
+    color:aliceblue ;
+    background-color: rgb(39, 97, 155);
+    padding: 15px;
+    font-size: 25;
+    top: 240px;
+}
+
+/* Formulaire de recherche */
+
+header form {
+    background-color: rgb(39, 97, 155);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.search-form {
+    transform: translateY(75px);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    border-radius: 20px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.form-group input, select, option {
+    border: none;
+    padding: 5px;
+    background-color:aliceblue;
+    border-radius: 10px;
+}
+
+.form-group label {
+    margin: 5px;
+    padding: 10px;
+}
+
+.button-submit {
+  text-align: center;
+}
+
+.button-submit input {
+    background-color: aliceblue;
+    border: none;
+    color:#373737;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
